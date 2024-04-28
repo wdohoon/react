@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CommentList from './chapter_05/CommentList';
+//import CommentList from './chapter_05/CommentList';
 
 //import Library from './chapter_03/Library';
 //import Clock from './chapter_04/Clock';
 //import Comment from './chapter_05/Comment';
-
+//import NotificationList from './chapter_06/NotificationList';
+import Accommodate from './chapter_07/Accommodate'
 
 // setInterval(() => {
 //   ReactDOM.render(
@@ -30,7 +31,7 @@ import CommentList from './chapter_05/CommentList';
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
-      <CommentList/>
+      <Accommodate/>
     </React.StrictMode>,
     document.getElementById('root')
   );
