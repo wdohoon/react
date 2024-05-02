@@ -13,7 +13,8 @@ import reportWebVitals from './reportWebVitals';
 //import ConfirmButton from './chapter_08/ConfirmButton';
 //import LandingPage from './chapter_09/LandginPage';
 //import AttendanceBook from './chapter_10/AttendanceBook';
-import SignUp from './chpater_11/SignUp';
+//import SignUp from './chpater_11/SignUp';
+import Calculator from './chapter_12/Calculator';
 
 // setInterval(() => {
 //   ReactDOM.render(
@@ -35,7 +36,7 @@ import SignUp from './chpater_11/SignUp';
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
-      <SignUp/>
+      <Calculator/>
     </React.StrictMode>,
     document.getElementById('root')
   );
