@@ -14,7 +14,8 @@ import reportWebVitals from './reportWebVitals';
 //import LandingPage from './chapter_09/LandginPage';
 //import AttendanceBook from './chapter_10/AttendanceBook';
 //import SignUp from './chpater_11/SignUp';
-import Calculator from './chapter_12/Calculator';
+//import Calculator from './chapter_12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard';
 
 // setInterval(() => {
 //   ReactDOM.render(
@@ -36,7 +37,7 @@ import Calculator from './chapter_12/Calculator';
 setInterval(() => {
   ReactDOM.render(
     <React.StrictMode>
-      <Calculator/>
+      <ProfileCard/>
     </React.StrictMode>,
     document.getElementById('root')
   );
