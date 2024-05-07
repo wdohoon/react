@@ -43,7 +43,7 @@ function Blocks(props) {
             {blockItems.map((blockItem, index) => {
                 return (
                     <Block
-                        key={index} // key prop 추가
+                        key={index} 
                         padding={blockItem.padding}
                         backgroundColor={blockItem.backgroundColor}
                     >
